@@ -17,49 +17,34 @@ This project is a simple e-commerce website built using HTML, CSS, and JavaScrip
 
 1. Browse the products on the home page.
 2. Click the "Add to Cart" button to add a product to the cart.
-
-3.View the cart by navigating to the cart page.
+3. View the cart by navigating to the cart page.
 
 **Proceeding to Shipping Details**
 
-1.Ensure you have products in your cart.
-
-2.Click the "Proceed to Shipping" button on the cart page.
-
-3.Fill out the shipping details form and submit it.
+1. Ensure you have products in your cart.
+2. Click the "Proceed to Shipping" button on the cart page.
+3. Fill out the shipping details form and submit it.
 
 **User Authentication**
 
-1.Register a new user via the registration page.
-
-2.Log in with the registered email and password via the login page.
-
-3.Logged-in users can view their name and email on the home page.
+1. Register a new user via the registration page.
+2. Log in with the registered email and password via the login page.
+3. Logged-in users can view their name and email on the home page.
 
 **Code Structure** 
 
-*index.html: Home page with product listing
-
-*cart.html: Cart page to view and manage cart contents.
-
-*shipping.html: Shipping details form page.
-
-*checkout.html: Checkout page after submitting shipping details.
-
-*login.html: User login page.
-
-*register.html: User registration page.
-
-*script.js: JavaScript file containing all the functionality.
-
-*styles.css: CSS file for styling the website.
+* index.html: Home page with product listing
+* cart.html: Cart page to view and manage cart contents.
+* shipping.html: Shipping details form page.
+* checkout.html: Checkout page after submitting shipping details.
+* login.html: User login page.
+* register.html: User registration page.
+* script.js: JavaScript file containing all the functionality.
+* styles.css: CSS file for styling the website.
 
 **Future Enhancements**
 
-*Add a backend server for user authentication and product management.
-
-*Implement payment gateway integration for checkout.
-
-*Enhance product listing with categories and subcategories.
-
-*Improve UI/UX design for a better user experience.
+* Add a backend server for user authentication and product management.
+* Implement payment gateway integration for checkout.
+* Enhance product listing with categories and subcategories.
+* Improve UI/UX design for a better user experience.
