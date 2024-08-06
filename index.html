@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>E-Commerce Platform</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our E-Commerce Platform</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="cart.html">Cart</a>
+            <a href="login.html">Login</a>
+            <a href="register.html">Register</a>
+        </nav>
+    </header>
+    <main>
+        <input type="text" id="search" placeholder="Search for products...">
+        <select id="sort" onchange="sortProducts()">
+            <option value="default">Sort by</option>
+            <option value="priceAsc">Price: Low to High</option>
+            <option value="priceDesc">Price: High to Low</option>
+            <option value="newestFirst">Newest First</option>
+            <option value="popularity">Popularity</option>
+            <option value="relevance">Relevance</option>
+        </select>
+        <select id="filter" onchange="filterProducts()">
+            <option value="default">Filter</option>
+            <option value="Price1">Rs.250 and Below</option>
+            <option value="Price2">Rs.251 - Rs.500</option>
+            <option value="Price3">Rs.501 - Rs.1000</option>
+            <option value="Price4">Rs.1001 - Rs.2000</option>
+            <option value="Price5">Rs.2001 - Rs.5000</option>
+            <option value="Price6">Rs.5001 - Rs.10000</option>
+        </select>
+        <select id="discount" onchange="discountProducts()">
+            <option value="default">Discount</option>
+            <option value="discount1">50% or more</option>
+            <option value="discount2">40% or more</option>
+            <option value="discount3">30% or more</option>
+            <option value="discount4">20% or more</option>
+            <option value="discount5">10% or more</option>
+        </select>
+        <div id="product-list">
+            <!-- Products will be dynamically loaded here -->
+        </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
