@@ -4,10 +4,10 @@ This project is a simple e-commerce website built using HTML, CSS, and JavaScrip
 
 **Features**
 
-**Product Listing: Display a list of products with images, prices, and discounts.
-*Search Functionality: Search products by name.
-*Sorting: Sort products by price (ascending/descending) and newest first.
-*Filtering: Filter products by price range and discount percentage.
+-Product Listing: Display a list of products with images, prices, and discounts.
+-Search Functionality: Search products by name.
+-Sorting: Sort products by price (ascending/descending) and newest first.
+-Filtering: Filter products by price range and discount percentage.
 *Shopping Cart: Add products to the cart, view cart contents, and remove products from the cart.
 *User Authentication: Register and login users, with user details stored in local storage.
 *Checkout: Proceed to checkout with shipping details form submission.
