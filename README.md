@@ -14,6 +14,7 @@ This project is a simple e-commerce website built using HTML, CSS, and JavaScrip
 
 **Usage**
 **Adding Products to the Cart**
+
 1.Browse the products on the home page.
 
 2.Click the "Add to Cart" button to add a product to the cart.
